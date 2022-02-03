@@ -28,6 +28,7 @@
 @import "pages/page-team.scss";
 @import "pages/page-technology.scss";
 @import "pages/page-careers.scss";
+@import "pages/page-glossary.scss";
 
 @import "components/team.scss";
 @import "components/technology.scss";
@@ -469,4 +470,28 @@ hr:not([size]){
 .anchor{
   position:absolute;
   margin-top:-150px;
+}
+
+.breadcrumb{
+  .icon-dropdown{
+    transform:rotate(-90deg);
+    display:inline-block;
+    font-size:7px;
+    margin:0 20px;
+    float:right;
+    margin-top:8px;
+  }
+
+  .breadcrumb-item{
+    font-family: $inter;
+    font-weight:300;
+    font-size: 12px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 22px;
+
+    &.active{
+      color:initial;
+    }
+  }
 }
