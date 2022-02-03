@@ -101,7 +101,7 @@ class Header extends React.Component {
             document.getElementById("header").classList.remove("blur");
         }
     };
-    
+
 
     toggleMenu = () => {
         if (document.getElementById("hamburger").classList.contains('is-active')) {
