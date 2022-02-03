@@ -279,12 +279,12 @@ header{
                 width:32px;
                 height:32px;
                 border-radius: 50%;
-                line-height:30px;
                 text-align:center;
                 transition:600ms all cubic-bezier(0.83, 0, 0.17, 1);
 
                 img{
                   width:12px;
+                  height:100%;
                 }
               }
 
