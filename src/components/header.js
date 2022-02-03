@@ -21,14 +21,14 @@ const navigation = [
                 text: "Experiment with devnet",
                 subtext: "Devnet",
                 url: "https://github.com/celestiaorg/networks",
-                icon: "menu/devnet.svg",
+                icon: "menu/specification.svg",
                 type: 'external'
             },
             {
                 text: "Read the original research paper",
                 subtext: "Research paper",
                 url: "https://arxiv.org/pdf/1905.09274.pdf",
-                icon: "menu/research.svg",
+                icon: "menu/paper.svg",
                 type: 'external'
             }
         ]
@@ -76,23 +76,7 @@ const navigation = [
     },{
         text: "Resources",
         url: "/resources/",
-        type: 'internal',
-        submenus: [
-            {
-                text: "FAQ",
-                subtext: "Start here",
-                url: "/faq",
-                icon: "menu/faq.svg",
-                type: 'internal'
-            },
-            {
-                text: "Videos, Podcasts, Whitepapers",
-                subtext: "Resources",
-                url: "/resources",
-                icon: "menu/resources.svg",
-                type: 'internal'
-            }
-        ]
+        type: 'internal'
     },{
         text: "Blog",
         url: "https://blog.celestia.org",
