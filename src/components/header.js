@@ -85,6 +85,7 @@ const navigation = [
                 icon: "menu/faq.svg",
                 type: 'internal'
             },
+
             {
                 text: "Videos, Podcasts, Whitepapers",
                 subtext: "Resources",
