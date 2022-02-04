@@ -70,20 +70,6 @@ export const teamMembers = [
         }
     },
     {
-        id : 5,
-        name : 'Matthew Di Ferrante',
-        title: 'Software Engineer',
-        text: 'Security expert and auditor, Ethereum contributor since 2014',
-        image: 'team/MatthewDiFerrante.png',
-        socials: {
-            twitter : 'https://twitter.com/matthewdif',
-            discord : '',
-            github : 'https://github.com/mattdf',
-            email : '',
-            linkedin : 'https://www.linkedin.com/in/matthewdiferrante/',
-        }
-    },
-    {
         id : 6,
         name : 'Hlib Kanunnikov',
         title: 'Software Engineer',
@@ -207,6 +193,20 @@ export const teamMembers = [
             github : '',
             email : '',
             linkedin : '',
+        }
+    },
+    {
+        id : 15,
+        name : 'Viacheslav Gonkivskyi',
+        title: 'Software Engineer',
+        text: 'Former software engineer at Luxoft',
+        image: 'team/ViacheslavGonkivskyi.png',
+        socials: {
+            twitter : 'https://twitter.com/VGonkivskyi',
+            discord : '',
+            github : 'https://github.com/vgonkivs',
+            email : '',
+            linkedin : 'https://www.linkedin.com/in/vgonkivskyi/',
         }
     }
 ]
